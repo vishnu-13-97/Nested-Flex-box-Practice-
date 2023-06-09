@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    border: 1px solid black;
+}
+.img{
+    width: 400px;
+    height: 50px;
+}
