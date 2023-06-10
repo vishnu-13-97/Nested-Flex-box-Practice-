@@ -1,11 +1,41 @@
 body{
     margin: 0;
+    
 }
 header{
     display: flex;
     border: 1px solid black;
+   
 }
-.img{
-    width: 400px;
+.icon-img{
+    width: 30px;
+    height: 40px;
+    margin-left: 20px;
+}
+.left-section{
+    background-color: aqua;
+width: 300px;
+}
+.middle-section{
+    background-color: black;
+    flex: 1;
+}
+.right-section{
+    background-color: cadetblue;
+}
+.youtube-logo-img{
+  width: 70px;
     height: 50px;
+}
+.search-bar{
+    width: 550px;
+    height: 40px;
+}
+.search-icon{
+    width: 40px;
+    height: 30px;
+}
+.voice-search-icon{
+    width: 40px;
+    height: 30px;
 }
