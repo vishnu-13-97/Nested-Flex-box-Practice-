@@ -3,9 +3,11 @@ body{
     
 }
 header{
-    display: flex;
+     display: flex;
     border: 1px solid black;
-   
+   align-items: center;
+   justify-content: space-between;
+
 }
 .icon-img{
     width: 30px;
@@ -14,14 +16,23 @@ header{
 }
 .left-section{
     background-color: aqua;
-width: 300px;
+width: 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
 }
 .middle-section{
     background-color: black;
     flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .right-section{
-    background-color: cadetblue;
+    background-color: blue;
+    width: 200px;
+    display: flex;
+    height: 50px;
 }
 .youtube-logo-img{
   width: 70px;
