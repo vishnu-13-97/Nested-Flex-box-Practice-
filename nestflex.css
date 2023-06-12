@@ -10,13 +10,14 @@ header{
 
 }
 .icon-img{
-    width: 30px;
-    height: 40px;
+    
+    height: 24px;
     margin-left: 20px;
+    margin-right: 24px;
 }
 .left-section{
-    background-color: aqua;
-width: 150px;
+
+
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -27,6 +28,7 @@ align-items: center;
     flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .right-section{
     background-color: blue;
@@ -35,18 +37,25 @@ align-items: center;
     height: 50px;
 }
 .youtube-logo-img{
-  width: 70px;
+  width: 85px;
     height: 50px;
+    margin-right: 50px;
+    margin-left: 28px;
 }
 .search-bar{
     width: 550px;
-    height: 40px;
+    height: 34px;
+
+}
+.search-bar::placeholder{
+font-size: 15px;
+padding-left: 10px;
 }
 .search-icon{
-    width: 40px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
 }
 .voice-search-icon{
     width: 40px;
-    height: 30px;
+    height: 40px;
 }
