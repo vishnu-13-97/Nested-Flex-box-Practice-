@@ -19,16 +19,20 @@ header{
 
 
 display: flex;
-justify-content: space-between;
+
 align-items: center;
 
 }
 .middle-section{
-    background-color: black;
+   
     flex: 1;
   display: flex;
-  justify-content: center;
+  
   align-items: center;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  
 }
 .right-section{
     background-color: blue;
@@ -45,6 +49,8 @@ align-items: center;
 .search-bar{
     width: 550px;
     height: 34px;
+    flex: 1;
+    margin-left: 10px;
 
 }
 .search-bar::placeholder{
