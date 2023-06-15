@@ -4,7 +4,7 @@ body{
 }
 header{
      display: flex;
-    border: 1px solid black;
+   
    align-items: center;
    justify-content: space-between;
 
@@ -45,10 +45,11 @@ align-items: center;
     margin-left: 28px;
 }
 .search-bar{
-   
+ 
     width: 550px;
   height: 34px;
     margin-left: 10px;
+   border-left: 60px;
 
 }
 .search-bar::placeholder{
@@ -56,10 +57,22 @@ font-size: 15px;
 padding-left: 10px;
 }
 .search-icon{
-    width: 60px;
-    height: 40px;
+    width: 30px;
+    height: 28px;
 }
 .voice-search-icon{
     width: 40px;
     height: 40px;
+}
+.voice-search-btn{
+width: 60px;
+margin-right: -1px;
+border: none;
+}
+.voice-search-btn{
+    width: 60px;
+    margin-right: -1px;
+    margin-left: -1px;
+    border: none;
+
 }
