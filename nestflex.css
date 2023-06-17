@@ -56,8 +56,9 @@ font-size: 15px;
 padding-left: 10px;
 }
 .search-icon{
-    width: 30px;
-    height: 28px;
+    width: 34px;
+    height: 30px;
+   
 }
 .voice-search-icon{
     width: 30px;
@@ -70,4 +71,8 @@ padding-left: 10px;
     margin-left:  5px;
     border: none;
  border-radius: 25px;
+}
+.search-btn{
+ border-radius: 30px;
+ border: none;
 }
