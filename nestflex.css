@@ -82,3 +82,10 @@ border-color: rgb(129, 132, 132);
 .voice-search-btn :hover{
   background-color: rgb(171, 176, 176);
 }
+.profile-img{
+  width: 50px;
+}
+.right-section{
+  display: flex;
+  width: 150px;
+}
