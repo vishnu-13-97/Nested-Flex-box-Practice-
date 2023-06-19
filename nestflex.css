@@ -1,12 +1,13 @@
 body{
     margin: 0;
-    
+  height: 1000px;
 }
 header{
      display: flex;
    margin-top: 6px;
    align-items: center;
    justify-content: space-between;
+   position: fixed;
 
 }
 .icon-img{
@@ -31,12 +32,6 @@ align-items: center;
   margin-left: 210px;
   margin-right: 14px;
   
-}
-.right-section{
-    background-color: blue;
-    width: 200px;
-    display: flex;
-    height: 50px;
 }
 .youtube-logo-img{
   width: 85px;
@@ -83,9 +78,23 @@ border-color: rgb(129, 132, 132);
   background-color: rgb(171, 176, 176);
 }
 .profile-img{
-  width: 50px;
+  width: 24px;
+  border-radius: 12px;
 }
 .right-section{
   display: flex;
   width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.upload-icon{
+  width: 24px;
+}
+.youtube-apps-icon{
+  width: 24px;
+}
+.notifications-icon{
+  width: 24px;
 }
